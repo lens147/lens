@@ -17,7 +17,7 @@ section{
 header{
     background-color: #292828;
     box-shadow: 0 4px 4px #292828;
-    height: 21.69vh;
+    min-height: 21.69vh;
 }
 .logo_none{
     display: none;
@@ -369,6 +369,7 @@ iframe{
     }
     header{
         background-color: #292828;
+        min-height: 110px;
     }
     nav .sous{              /* responsive nav */
         padding: 0;
