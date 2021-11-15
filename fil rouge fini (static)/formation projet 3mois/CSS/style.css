@@ -7,7 +7,7 @@ h2{
     font-family: sans-serif;
 }
 section{
-    min-height: 69.01vh;
+    min-height: 69.03vh;
     max-height: none;
 }
 .pagearticle{
@@ -130,7 +130,6 @@ footer{
     display: flex;
     justify-content: space-between;
     background-color: #aca9a9;
-    height: 9.28vh;
 }
 footer p:first-child{
     margin-right: 10px;
@@ -453,6 +452,9 @@ iframe{
     footer{
         display: flex;
         flex-direction: column-reverse;
+    }
+    .eleveavatar, .eleveavatardeux{              /* responsive page eleve */
+        margin: 0 10%;
     }
     #image, #image img{              /* responsive page article */
         width: 200px;
