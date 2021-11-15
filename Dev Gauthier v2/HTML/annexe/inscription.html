@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    
+    <nav>
+        <p><a href="../index.html" id="centpourcent"><img src="../../images/icons8-c-sharp-logo.svg" alt="logo" width="150px" /></a></p>
+    </nav>
+
+    <div>
+        <h1>Création de compte</h1>
+        <form action="../index.html" method="POST">
+            <h2>Vos identifiants :</h2>
+            <div>
+                <input type="email" name="emailinscription" id="email" placeholder="Email" required />
+                <input type="password" name="passwordinscription" id="password" placeholder="Mot de passe" required />
+            </div>
+            <h2>Vos informations personnelles :</h2>
+            <div>
+                <div>
+                    <input type="radio" id="mister" name="civility" checked="" value="1" />
+                    <label for="mister">M.</label>
+                </div>
+                <div>
+                    <input type="radio" id="miss" name="civility" checked="" value="3" />
+                    <label for="miss">Mme.</label>
+                </div>
+            </div>
+            <input type="text" id="FirstName" name="FirstName" placeholder="Prénom" required />
+            <input type="text" id="Name" name="Name" placeholder="Nom de famille" required />
+            <input type="date" name="Birthdate" id="Birthdate" placeholder="Date de naissance (facultatif)" required />
+            <input type="checkbox" name="NewsLetterSubscribe" id="NewsLetterSubscribe" />
+            <label for="NewsLetterSubscribe">J'accepte de recevoir des informations et des offres promotionnelles exclusives de la part de LDLC.com.</label>
+            <input type="submit" value="Valider" />
+        </form>
+
+    </div>
+
+</body>
+
+</html>

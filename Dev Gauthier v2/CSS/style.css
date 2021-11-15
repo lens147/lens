@@ -1,0 +1,155 @@
+body{
+    margin: 0;
+    background-color: #949090;
+}
+.none{
+    display: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+nav{
+    width: 50%;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 52px;
+    padding: 10px 20px;
+    list-style: none;
+}
+nav a{
+    text-decoration: none;
+    color: unset;
+    text-transform: uppercase;
+    padding: 0px;
+}
+header #iconenav{
+    display: flex;
+    justify-content: end;
+    margin-right: 40px;
+}
+#iconenav img{
+    width: 46px;
+}
+header form{
+    margin-right: 40px;
+}
+.deuxart{
+    display: flex;
+    color: #cfcaca;
+}
+.deuxart img{
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+.arth2{
+    position: relative;
+    top: -72%;
+    width: 94%;
+    margin: auto;
+    height: 0;
+    z-index: 2;
+}
+.arth2 h2{
+    text-align: center;
+}
+.arth2 p{
+    text-align: justify;
+}
+.deuxart article{
+    margin-right: 2%;
+}
+.deuxart{
+    margin-left: 2%;
+}
+.deuxart a{
+    position: relative;
+    right: 24%;
+    left: 76%;
+}
+footer{           /* footer */
+    background-color: #eee3d2;
+}
+#reassurance{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 2%;
+}
+#sock{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 2%;
+}
+#sock > div{
+    height: 300px;
+}
+#fb, #insta, #twitter{
+    display: flex;
+}
+#sock ul{
+    list-style: none;
+}
+#sock a{
+    text-decoration: none;
+    color: unset;
+}
+#sock li{
+    margin: 20px 0;
+}
+#liens ul{
+    padding: 0;
+}
+#news form{
+    margin-top: 90%;
+}
+#sectcatalog article{
+    display: flex;
+}
+#sectcatalog a{
+    text-decoration: none;
+    color: unset;
+}
+.presentation img{
+    width: 120px;
+    height: 120px;
+}
+.stock img{
+    width: 48px;
+    height: 48px;
+}
+.findart{
+    margin-left: 16px;
+    margin-right: 16px;
+}
+#produit{
+    margin-top: 60px;
+    display: flex;
+    margin: 0 3%;
+}
+#prediv{
+    margin-right: 4%;
+}
+#grosse img{
+    width: 240px;
+}
+#petite{
+    display: flex;
+    justify-content: center;
+}
+#petite img{
+    width: 60px;
+    margin: 0 4%;
+}
+table{
+    margin: auto;
+}
+#description{
+    text-align: justify;
+    margin: 20px 10%;
+}
+#description h2{
+    text-align: center;
+}
